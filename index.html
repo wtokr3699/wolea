@@ -762,7 +762,7 @@ function ProfileScreen({ isLoggedIn, onLogin, onLogout }) {
   const [pw,setPw]=useState('');
   const [err,setErr]=useState('');
   const [loggedEmail,setLoggedEmail]=useState('');
-  const ADMIN='wtokr@naver.com', APW='1234';
+  const ADMIN='wtokr@naver.com', APW='a12345678!';
 
   const doLogin=()=>{
     if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){setErr('올바른 이메일 형식이 아닙니다.');return;}
